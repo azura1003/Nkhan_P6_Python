@@ -1,22 +1,4 @@
 
-
-
-
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-
-
-
 <!-- PROJECT LOGO -->
 
 <a href="https://ibb.co/ZG6N78x"><img src="https://i.ibb.co/ydnV7yq/images.png" alt="images" border="0"></a>
@@ -40,8 +22,8 @@
   * [Installation](#installation)
 * [Utilisation](#Utilisation)
 * [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
+* [Contribution](#contribution)
+* [Licence](#Licence)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -120,7 +102,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribution
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -132,8 +114,8 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
+<!-- LICENCE -->
+## Licence
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
