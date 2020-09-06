@@ -33,7 +33,7 @@
 <!-- Sommaire -->
 ## Sommaire du Readme
 
-* [A propos du projet](#about-the-project)
+* [A propos du projet](#a-propos-du-projet)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -47,8 +47,8 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- A propos du projet -->
+## A propos du projet
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
