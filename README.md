@@ -46,7 +46,7 @@ En effet, quand ce programme ne fonctionne plus, le client ne peut plus utiliser
 Ce script pourra à terme nous apporter un gain de temps, et les mainteneurs pourront se consacrer à d'autres tâches et cela augmentera également la satisfaction des clients, car meilleur stabilité de notre Automate.
 
 ### conçu avec
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Le scrypt/programme a été concu dans le language Python avec l'aide de l'IDE Pycharm.
 * [Python](https://www.python.org/)
 * [Pycharm](https://www.jetbrains.com/fr-fr/pycharm/promo/?gclid=EAIaIQobChMIsY6M37_V6wIVBqp3Ch3DJA6XEAAYASAAEgIrwfD_BwE)
 
