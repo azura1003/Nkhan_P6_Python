@@ -23,7 +23,7 @@ Product Name Screen Shot
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
-Here's why:
+Pourquoi ce projet :
 
 Your time should be focused on creating something amazing. A project that solves a problem and helps others
 You shouldn't be doing the same tasks over and over like creating a README from scratch
@@ -32,7 +32,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-Built With
+Codé avec : 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 Bootstrap
@@ -41,7 +41,7 @@ Laravel
 Getting Started
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
-Prerequisites
+Prérequis :
 This is an example of how to list things you need to use the software and how to install them.
 
 npm
@@ -59,10 +59,10 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 For more examples, please refer to the Documentation
 
-Roadmap
+Amélioration possible : 
 See the open issues for a list of proposed features (and known issues).
 
-Contributing
+Contribution
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project
@@ -76,7 +76,7 @@ Distributed under the MIT License. See LICENSE for more information.
 Contact
 Your Name - @your_twitter - email@example.com
 
-Project Link: https://github.com/your_username/repo_name
+Lien du projet: https://github.com/azura1003/Nkhan_P6_Python/
 
 Acknowledgements
 GitHub Emoji Cheat Sheet
