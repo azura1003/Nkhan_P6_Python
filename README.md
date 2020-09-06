@@ -1,12 +1,10 @@
-Contributors Forks Stargazers Issues MIT License LinkedIn
+
 
 <a href="https://ibb.co/ZG6N78x"><img src="https://i.ibb.co/ydnV7yq/images.png" alt="images" border="0"></a>
 
-Best-README-Template
-An awesome README template to jumpstart your projects!
-Explore the docs »
 
-View Demo · Report Bug · Request Feature
+
+
 
 Table of Contents
 About the Project
