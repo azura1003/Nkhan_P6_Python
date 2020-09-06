@@ -36,9 +36,9 @@
 * [A propos du projet](#a-propos-du-projet)
   * [Conçu avec](#conçu-avec)
 * [Pour commmencer](#Pour-commmencer)
-  * [Prerequisites](#prerequisites)
+  * [Prérequis](#Prérequis)
   * [Installation](#installation)
-* [Usage](#usage)
+* [Utilisation](#Utilisation)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -74,10 +74,10 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Pour commmencer 
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Voici des instructions simples pour que vous puissiez vous aussi utiliser ce script et l'adapter à votre infrastucture.
 
-### Prerequisites
+
+### Prérequis
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -104,7 +104,7 @@ const API_KEY = 'ENTER YOUR API';
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Utilisation
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
