@@ -1,2 +1,2 @@
-# P6_PythonMasterScript
-Projet d'un script python pour l'automatisation de certaines taches lors d'une masterisation de poste.
+# Nkhan_P6_Python
+Projet d'un script python pour l'automatisation du redemarrage de logiciel qui dysfonctionnerait.
