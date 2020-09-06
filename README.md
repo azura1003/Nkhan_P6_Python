@@ -33,16 +33,17 @@
 ## A propos du projet
 
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+Ce projet est né de ma volonté à faciliter mon quoitidient, dans le cadre de maintenance de automate d'encodage de carte magnétique/RFID, il m'arrive d'effectuer quotidiennement des taches redondantes. Le parc d'automates que je maintiens avec mon equipe s'eleve à 3000 machines basées chez nos divers clients, 20% de ces machines diposent d'un logiciel d'encodage nommé vision. Celui-ci est installé par la société Assabloy, dont il est le produit.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+<!-- capture ici de l'interface vision -->
+Vision tourne comme un programme .exe mais dispose aussi de certains services windows. Il arrive trés fréquement que ce programme et ses services arretent de fonctionner.
+L'instabilité est lié à l'obsolessence du logiciel, en effet l'upgrade vers une version plus sable dépend de nos clients, car cette derniere a un coût.
+<!-- capture ici de l'interface services -->
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+L'objectif de ce projet est d'automatiser la detection, et effectuer proprement le redemerrage de ces programmes afin que notre machine puisse continuer à fonctionner.
+En effet, quand ce programme ne fonctionne plus, le client ne peut plus utiliser sa machine et perd de l'argent. Il en suit une maintenance par mon équipe.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Ce script pourra à terme nous apporter un gain de temps, et les mainteneurs pourront se consacréer à d'autres taches et cela augmentera égualement la sasfication des clients, car meilleure stabilité de notre Automate.
 
 ### conçu avec
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -60,37 +61,18 @@ Voici des instructions simples pour que vous puissiez vous aussi utiliser ce scr
 
 ### Prérequis
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+Voici une liste des prérequis afin d'utiliser ce scrypt et le programme en exe .
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+Pour l'installer :
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+Parler ici de windows planificateur de taches / CRON sous linux des opportunités.
 
 
 <!-- ROADMAP -->
@@ -103,29 +85,22 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTRIBUTING -->
 ## Contribution
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+Contributions pouvant t'etre apportée pour améliorer ce script 
 
 
 <!-- LICENCE -->
 ## Licence
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Parler ici de la licence Github
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Noor khan nk@emailfactice.fr
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/azura1003/Nkhan_P6_Python)
 
 
 
