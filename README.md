@@ -33,17 +33,17 @@
 ## A propos du projet
 
 
-Ce projet est né de ma volonté à faciliter mon quoitidient, dans le cadre de maintenance de automate d'encodage de carte magnétique/RFID, il m'arrive d'effectuer quotidiennement des taches redondantes. Le parc d'automates que je maintiens avec mon equipe s'eleve à 3000 machines basées chez nos divers clients, 20% de ces machines diposent d'un logiciel d'encodage nommé vision. Celui-ci est installé par la société Assabloy, dont il est le produit.
+Ce projet est né de ma volonté à faciliter mon quotidien. Dans le cadre de maintenance d'automate d'encodage de carte magnétique/RFID, il m'arrive d'effectuer quotidiennement des tâches redondantes. Le parc d'automates que je maintiens avec mon équipe s'élève à 3000 machines basées chez nos divers clients, 20% de ces machines dispose d'un logiciel d'encodage nommé vision. Celui-ci est installé par la société Assabloy, dont il est le produit.
 
 <!-- capture ici de l'interface vision -->
-Vision tourne comme un programme .exe mais dispose aussi de certains services windows. Il arrive trés fréquement que ce programme et ses services arretent de fonctionner.
-L'instabilité est lié à l'obsolessence du logiciel, en effet l'upgrade vers une version plus sable dépend de nos clients, car cette derniere a un coût.
+Vision tourne comme un programme.Exe, mais dispose aussi de certains services Windows. Il arrive très fréquemment que ce programme et ses services arrêtent de fonctionner.
+L'instabilité est liée à l'obsolescence du logiciel, en effet l'upgrade vers une version plus sable dépend de nos clients, car cette dernière a un coût.
 <!-- capture ici de l'interface services -->
 
-L'objectif de ce projet est d'automatiser la detection, et effectuer proprement le redemerrage de ces programmes afin que notre machine puisse continuer à fonctionner.
+L'objectif de ce projet est d'automatiser la détection, et effectuer proprement le redémarrage de ces programmes afin que notre machine puisse continuer à fonctionner.
 En effet, quand ce programme ne fonctionne plus, le client ne peut plus utiliser sa machine et perd de l'argent. Il en suit une maintenance par mon équipe.
 
-Ce script pourra à terme nous apporter un gain de temps, et les mainteneurs pourront se consacréer à d'autres taches et cela augmentera égualement la sasfication des clients, car meilleure stabilité de notre Automate.
+Ce script pourra à terme nous apporter un gain de temps, et les mainteneurs pourront se consacrer à d'autres tâches et cela augmentera également la satisfaction des clients, car meilleur stabilité de notre Automate.
 
 ### conçu avec
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
