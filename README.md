@@ -34,7 +34,7 @@
 ## Sommaire du Readme
 
 * [A propos du projet](#a-propos-du-projet)
-  * [Built With](#fait-avec)
+  * [Fait avec](#fait-avec)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
