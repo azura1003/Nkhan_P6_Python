@@ -35,7 +35,7 @@
 
 * [A propos du projet](#a-propos-du-projet)
   * [Conçu avec](#conçu-avec)
-* [Getting Started](#getting-started)
+* [Pour commmencer](#Pour-commmencer)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
@@ -72,7 +72,7 @@ This section should list any major frameworks that you built your project using.
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Pour commmencer 
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
