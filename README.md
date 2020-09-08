@@ -36,7 +36,7 @@
 Ce projet est né de ma volonté de faciliter mon quotidien. Dans le cadre de maintenance d'automates qui encodent des carte magnétique/RFID, il m'arrive d'effectuer quotidiennement des tâches redondantes. Le parc d'automates que je maintiens avec mon équipe s'élève à 3000 machines basées chez nos divers clients, 20% de ces machines dispose d'un logiciel d'encodage nommé vision. Celui-ci est installé par la société Assabloy, dont il est elle est conceptrice.
 
 <!-- capture ici de l'interface vision -->
-Vision tourne comme un programme.Exe, mais dispose aussi de certains services Windows. Il arrive très fréquemment que ce programme et ses services arrêtent de fonctionner.
+Vision tourne comme un programme.Exe, mais dispose aussi de certaines dépendence qui tournent comme services Windows. Il arrive très fréquemment que ce programme et ses services arrêtent de fonctionner.
 L'instabilité est liée à l'obsolescence du logiciel, en effet l'upgrade vers une version plus sable dépend de nos clients, car cette dernière a un coût.
 <!-- capture ici de l'interface services -->
 
