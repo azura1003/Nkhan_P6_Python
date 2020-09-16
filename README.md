@@ -48,10 +48,15 @@ Ce script pourra à terme nous apporter un gain de temps statistiquement un agen
 Apres une estimation, la moyenne de temps passé par un technicien sur ce probleme est 15 minutes :
 
 -la prise du ticket sur salesforce
+
 -la comprension de la demande
+
 -la prise de main sur le system
--l'exploitation des logs afin de dyagnostiquer le probleme 
+
+-l'exploitation des logs afin de dyagnostiquer le probleme
+
 -la resolution
+
 -la communication avec le client et la cloture 
 
 
