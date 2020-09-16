@@ -43,7 +43,18 @@ L'instabilité est liée à l'obsolescence du logiciel, en effet l'upgrade vers 
 L'objectif de ce projet est d'automatiser la détection, et effectuer proprement le redémarrage de ces programmes afin que notre machine puisse continuer à fonctionner.
 En effet, quand ce programme ne fonctionne plus, le client ne peut plus utiliser sa machine et perd de l'argent. Il en suit une maintenance par mon équipe.
 
-Ce script pourra à terme nous apporter un gain de temps, et les mainteneurs pourront se consacrer à d'autres tâches et cela augmentera également la satisfaction des clients, car meilleur stabilité de notre Automate.
+Ce script pourra à terme nous apporter un gain de temps statistiquement un agent passe à peu pres, et les mainteneurs pourront se consacrer à d'autres tâches et cela augmentera également la satisfaction des clients, car meilleur stabilité de notre Automate.
+
+Apres une estimation, la moyenne de temps passé par un technicien sur ce probleme est 15 minutes :
+
+-la prise du ticket sur salesforce
+-la comprension de la demande
+-la prise de main sur le system
+-l'exploitation des logs afin de dyagnostiquer le probleme 
+-la resolution
+-la communication avec le client et la cloture 
+
+
 
 ### conçu avec
 Le scrypt/programme a été concu dans le language Python avec l'aide de l'IDE Pycharm.
