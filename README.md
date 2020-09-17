@@ -74,6 +74,7 @@ Le scrypt/programme a été concu dans le language Python avec l'aide de l'IDE P
 Voici des instructions simples pour que vous puissiez vous aussi utiliser ce script et l'adapter à votre infrastucture.
 
 
+
 ### Prérequis
 
 Voici une liste des prérequis afin d'utiliser ce scrypt et le programme en .exe .
@@ -92,6 +93,19 @@ Postes clients Windows 7
 
 ### Installation
 
+Le script est pratiquement pret à l'emploi vous devez simplement personnaliser les variables avec le nom des services.
+
+Prenons l'exemple du gestionnaire audio de windows.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/JmwMVKT/Capture.png" alt="Capture" border="0"></a>
+
+Pour l'ajouter il vous suffit de déterminer son nom de service, dans notre cas il se nomme "Audiosrv".
+
+<a href="https://ibb.co/Jr2HWKn"><img src="https://i.ibb.co/MPp7ysn/Services.png" alt="Services" border="0"></a>
+
+Vous devez modifier les noms des variables respectivements aux lignes :
+7 , 10 , 17 et 22
+
 
 
 
@@ -99,10 +113,13 @@ Postes clients Windows 7
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
-Parler ici de windows planificateur de taches / CRON sous linux des opportunités.
+Pour utiliser le script vous devez passer par l'invite de commande windows que vous devez lancer en administrateur :
 
-Les variables énoncées ci-dessous seront à modifier dans le script selon votre system et besoin. Si une variable n'est pas dans la liste suivante, le script est ponctué par des commentaires afin d'en éclairer le fonctionnement et rappeler les contenus attendus pour les variables.
+<a href="https://ibb.co/Dt1P55F"><img src="https://i.ibb.co/mGRr66K/Commande.png" alt="Commande" border="0"></a>
 
+Dans mon cas j'ai décidé d'utiliser le planificateur de taches windows afin de lancer le script à interval régulier.
+
+Pour ce faire 
 
 
 
@@ -120,7 +137,7 @@ Possibilité d'exporter les logs automatiquement apres un delai de un mois sur d
 <!-- LICENCE -->
 ## Licence
 
-Parler ici de la licence Github
+Le projet régit de la licence MIT.
 
 
 
