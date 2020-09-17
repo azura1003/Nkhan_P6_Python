@@ -77,11 +77,23 @@ Voici des instructions simples pour que vous puissiez vous aussi utiliser ce scr
 
 ### Prérequis
 
-Voici une liste des prérequis afin d'utiliser ce scrypt et le programme en exe .
+Voici une liste des prérequis afin d'utiliser ce scrypt et le programme en .exe .
+
+Vous devez disposer d'un system sous windows
+Disposer d'un compte administrateur 
+
+
+Les scripts ont été développés et testés dans l'environnement ci-dessous :
+
+
+Python version 3.8
+Postes clients Windows 10
+Postes clients Windows 7
+
 
 ### Installation
 
-Pour l'installer :
+
 
 
 
@@ -90,18 +102,20 @@ Pour l'installer :
 
 Parler ici de windows planificateur de taches / CRON sous linux des opportunités.
 
+Les variables énoncées ci-dessous seront à modifier dans le script selon votre system et besoin. Si une variable n'est pas dans la liste suivante, le script est ponctué par des commentaires afin d'en éclairer le fonctionnement et rappeler les contenus attendus pour les variables.
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- CONTRIBUTING -->
 ## Contribution
 
-Contributions pouvant t'etre apportée pour améliorer ce script 
+Plusieurs axes d'amélioration sont possibles:
+Notamment l'ajoute d'une fonction qui envoie une notification par alerte mail quand le script est pas en mesure d'effectuer sa tache. 
+Possibilité d'exporter les logs automatiquement apres un delai de un mois sur des serveurs FTP.
+
+
+
 
 
 <!-- LICENCE -->
