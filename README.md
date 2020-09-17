@@ -21,11 +21,10 @@
   * [Prérequis](#Prérequis)
   * [Installation](#installation)
 * [Utilisation](#Utilisation)
-* [Roadmap](#roadmap)
 * [Contribution](#contribution)
 * [Licence](#Licence)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+
 
 
 
