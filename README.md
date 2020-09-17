@@ -93,7 +93,7 @@ Postes clients Windows 7
 
 ### Installation
 
-Le script est pratiquement pret à l'emploi vous devez simplement personnaliser les variables avec le nom des services.
+Le script est pratiquement pret à l'emploi vous devez simplement personnaliser les variables avec le noms des services.
 
 Prenons l'exemple du gestionnaire audio de windows.
 
@@ -117,21 +117,37 @@ Pour utiliser le script vous devez passer par l'invite de commande windows que v
 
 <a href="https://ibb.co/Dt1P55F"><img src="https://i.ibb.co/mGRr66K/Commande.png" alt="Commande" border="0"></a>
 
-Dans mon cas j'ai décidé d'utiliser le planificateur de taches windows afin de lancer le script à interval régulier.
+Dans mon cas j'ai décidé d'utiliser le planificateur de taches Windows afin de lancer le script à intervalles réguliers.
 
-Pour ce faire 
+Pour ce faire, il faut transformer le script en exécutable.
 
+La première étape consiste à télécharger la dépendance python qui va convertir le script en exécutable :
+
+
+<a href="https://ibb.co/yX5K4nm"><img src="https://i.ibb.co/JK283RW/Pip-pyinstaller.png" alt="Pip-pyinstaller" border="0"></a>
+
+Tapez la commande pip install pyinstaller --onefile 
+
+Le "one file" est utile quand vous voulez qu'un seul fichier à la sortie.
+
+Une fois terminé, vous vous retrouvez avec votre executable.
+
+<a href="https://ibb.co/PgXGYKS"><img src="https://i.ibb.co/zZ9V5pk/exe.png" alt="exe" border="0"></a>
+
+L'avantage, c'est qu'il n'est pas necessaire d'avoir python installer ainsi sa compatibilité aux divers environnements est améoliré. 
+
+
+=> Finir le tuto vers Windows task completer
 
 
 <!-- CONTRIBUTING -->
 ## Contribution
 
 Plusieurs axes d'amélioration sont possibles:
-Notamment l'ajoute d'une fonction qui envoie une notification par alerte mail quand le script est pas en mesure d'effectuer sa tache. 
-Possibilité d'exporter les logs automatiquement apres un delai de un mois sur des serveurs FTP.
+notamment l'ajoute d'une fonction qui envoie une notification par alerte mail quand le script n'est pas en mesure d'effectuer sa tâche. 
+Possibilité d'exporter les logs automatiquement après un délai d'un mois sur des serveurs FTP.
 
-
-
+Automatisation avec CRON pour linux
 
 
 <!-- LICENCE -->
