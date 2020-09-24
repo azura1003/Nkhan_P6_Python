@@ -157,6 +157,10 @@ Le projet régit de la licence MIT.
 
 
 
+Version précédente Version 1.0
+Voir changelog.md
+
+
 <!-- CONTACT -->
 ## Contact
 
