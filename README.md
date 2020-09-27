@@ -99,8 +99,10 @@ Pour qu'on puisse utiliser le script avec le format natif de python, la premiere
 2) Exécutez l'installateur une fois le téléchargement terminé. Cliquez sur le bouton de la version voulue et le téléchargement de l'installateur commencera. 
 3) Cochez la case Add Python 3.5 to PATH. Ainsi, vous pourrez exécuter Python directement depuis l'invite de commandes.
 
+Vous etes à présent en mesure de lancer le script depuis l'interpreteur CMD de windows.
 
-Le script est pratiquement pret à l'emploi vous devez simplement personnaliser les variables avec le noms des services.
+
+Le script est pratiquement clé en main vous devez simplement personnaliser les variables avec les de services que vous souhaitez selon votre besoin.
 
 Choissiez le service que vous voulez superviser prenons l'exemple du gestionnaire audio de windows. 
 
@@ -110,8 +112,7 @@ Pour l'ajouter il vous suffit de déterminer son nom de service, dans notre cas 
 
 <a href="https://ibb.co/Jr2HWKn"><img src="https://i.ibb.co/MPp7ysn/Services.png" alt="Services" border="0"></a>
 
-Vous devez modifier les noms des variables respectivements aux lignes :
-7 , 10 , 17 et 22
+Vous devez reneigner le nom du service à la ligne 7 du script Script_vision.py <a href="https://imgbb.com/"><img src="https://i.ibb.co/m5bZY69/Ligne-7.png" alt="Ligne-7" border="0"></a>
 
 
 
