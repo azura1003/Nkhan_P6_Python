@@ -154,7 +154,7 @@ L'avantage, c'est qu'il n'est pas necessaire d'avoir python installé, ainsi sa 
 
 
 Maintenant que nous avons un exécutable fraichement créer, nous pouvons créer une tache dans l'outil Windows "planificateur de tache".
-Je vous ai facilité la "tâche" :) . Plutôt que de créer une tache de manière longue et fastidieuse, je vous ai mis à disposition dans le répertoire projet le fichier services visions reboot XML. Ce fichier est le template de la tache que j'ai créé pour mon projet, les commentaires dans le fichier XML vous indiquent les balises à modifier afin de personnaliser votre tâche, notamment l'emplacement de votre exécutable créer précédemment.
+Je vous ai facilité la "tâche" :), plutôt que de créer une tache de manière longue et fastidieuse, je vous ai mis à disposition dans le répertoire projet le fichier services visions reboot XML. Ce fichier est le template de la tache que j'ai créé pour mon projet, les commentaires dans le fichier XML vous indiquent les balises à modifier afin de personnaliser votre tâche, notamment l'emplacement de votre exécutable créer précédemment.
 Une fois que vous avez ajusté le XML selon votre besoin, nous pouvons le charger dans le planificateur.
 
 Il vous suffit d'ouvrir une invite de commande en administrateur et de taper la commande suivante et appuyez sur Entrer:
