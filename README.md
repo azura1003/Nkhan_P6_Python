@@ -107,7 +107,7 @@ Pour qu'on puisse utiliser le script avec le format natif de python, la premièr
 Vous etes à présent en mesure de lancer le script depuis l'interpreteur CMD de windows.
 
 
-Le script est pratiquement délivré clé en main, vous devez simplement personnaliser les variables avec les de services que vous souhaitez, selon votre besoin.
+Le script est pratiquement délivré clé en main, vous devez simplement personnaliser les variables avec le nom de service que vous souhaitez, selon votre besoin.
 
 Choissiez le service que vous voulez superviser, prenons pour notre démonstration le gestionnaire audio de windows. 
 
