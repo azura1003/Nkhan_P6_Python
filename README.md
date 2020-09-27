@@ -212,5 +212,11 @@ Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/
 
 
 
-
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 
