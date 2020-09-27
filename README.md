@@ -206,12 +206,10 @@ Noor khan noorkhan.95150@gmail.com
 Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/azura1003/Nkhan_P6_Python)
 
 
-<div class="text-white bg-purple mb-2">
-  .text-white on .bg-purple
-</div>
 
 
 
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
 
 
