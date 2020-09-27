@@ -193,15 +193,17 @@ Plusieurs axes d'amélioration sont possibles:
 <li>Possibilité d'exporter les logs automatiquement après un délai d'un mois sur des serveurs FTP. </li>
   <li> Automatisation sur linux avec CRON</li>
   <li> Déploiment automatique du script / taches windows depuis serveur avec WAPT </li>
+  <li> Automatisation avec CRON pour linux</li>
 </ul>
 
 
 
-Automatisation avec CRON pour linux
+
 
 ## Versioning
 Dans le repertoire projet vous allez trouver le fichier changelog.md, ce dernier à pour but de répertorier les versions et les ajouts.
 
+Version actuelle Version 1.0.1
 Version précédente Version 1.0
 
 
