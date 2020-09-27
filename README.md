@@ -150,7 +150,7 @@ Une fois terminé, vous vous retrouvez avec votre executable.
 
 <a href="https://ibb.co/PgXGYKS"><img src="https://i.ibb.co/zZ9V5pk/exe.png" alt="exe" border="0"></a>
 
-L'avantage, c'est qu'il n'est pas necessaire d'avoir python installer ainsi sa compatibilité aux divers environnements est améoliré. 
+L'avantage, c'est qu'il n'est pas necessaire d'avoir python installé, ainsi sa compatibilité aux divers environnements est améoliré. 
 
 
 Maintenant que nous avons un exécutable fraichement créer, nous pouvons créer une tache dans l'outil Windows "planificateur de tache".
