@@ -188,8 +188,14 @@ La tache est bien présente et elle s'excutera automatiquement toutes les 5 minu
 ## Contribution
 
 Plusieurs axes d'amélioration sont possibles:
-notamment l'ajoute d'une fonction qui envoie une notification par alerte mail quand le script n'est pas en mesure d'effectuer sa tâche. 
-Possibilité d'exporter les logs automatiquement après un délai d'un mois sur des serveurs FTP.
+<ul>
+<li>l'ajoute d'une fonction qui envoie une notification par alerte mail quand le script n'est pas en mesure d'effectuer sa tâche.</li> 
+<li>Possibilité d'exporter les logs automatiquement après un délai d'un mois sur des serveurs FTP. </li>
+  <li> Automatisation sur linux avec CRON</li>
+  <li> Déploiment automatique du script / taches windows depuis serveur avec WAPT </li>
+</ul>
+
+
 
 Automatisation avec CRON pour linux
 
