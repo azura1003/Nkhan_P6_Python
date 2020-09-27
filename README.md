@@ -93,9 +93,16 @@ Postes clients Windows 7
 
 ### Installation
 
+Pour qu'on puisse utiliser le script avec le format natif de python, la premiere chose à faire est d'installer Python. En effet contrairement à Mac et Linux, il est necessaire d'installer python sous windows.
+
+1) Rendez-vous sur le site de Python. En vous rendant à l'adresse python.org/downloads, vous allez pouvoir télécharger votre version de Python. Le site détectera que vous êtes sous Windows et la version que vous utilisez : il affichera alors l'installateur Windows approprié.
+2) Exécutez l'installateur une fois le téléchargement terminé. Cliquez sur le bouton de la version voulue et le téléchargement de l'installateur commencera. 
+3) Cochez la case Add Python 3.5 to PATH. Ainsi, vous pourrez exécuter Python directement depuis l'invite de commandes.
+
+
 Le script est pratiquement pret à l'emploi vous devez simplement personnaliser les variables avec le noms des services.
 
-Prenons l'exemple du gestionnaire audio de windows.
+Choissiez le service que vous voulez superviser prenons l'exemple du gestionnaire audio de windows. 
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/JmwMVKT/Capture.png" alt="Capture" border="0"></a>
 
@@ -107,6 +114,18 @@ Vous devez modifier les noms des variables respectivements aux lignes :
 7 , 10 , 17 et 22
 
 
+
+<a href="https://ibb.co/yX5K4nm"><img src="https://i.ibb.co/JK283RW/Pip-pyinstaller.png" alt="Pip-pyinstaller" border="0"></a>
+
+Tapez la commande pip install pyinstaller --onefile 
+
+Le "one file" est utile quand vous voulez qu'un seul fichier à la sortie.
+
+Une fois terminé, vous vous retrouvez avec votre executable.
+
+<a href="https://ibb.co/PgXGYKS"><img src="https://i.ibb.co/zZ9V5pk/exe.png" alt="exe" border="0"></a>
+
+L'avantage, c'est qu'il n'est pas necessaire d'avoir python installer ainsi sa compatibilité aux divers environnements est améoliré. 
 
 
 
