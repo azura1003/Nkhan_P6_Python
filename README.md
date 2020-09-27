@@ -19,7 +19,7 @@
   * [Conçu avec](#conçu-avec)
 * [Pour commmencer](#Pour-commmencer)
   * [Prérequis](#Prérequis)
-  * [Installation](#installation)
+  * [Configuration](#Configuration)
 * [Utilisation](#Utilisation)
 * [Contribution](#contribution)
 * [Licence](#Licence)
@@ -91,7 +91,7 @@ Postes clients Windows 10
 Postes clients Windows 7
 
 
-### Installation
+### Configuration
 
 Pour qu'on puisse utiliser le script avec le format natif de python, la premiere chose à faire est d'installer Python. En effet contrairement à Mac et Linux, il est necessaire d'installer python sous windows.
 
@@ -102,9 +102,9 @@ Pour qu'on puisse utiliser le script avec le format natif de python, la premiere
 Vous etes à présent en mesure de lancer le script depuis l'interpreteur CMD de windows.
 
 
-Le script est pratiquement clé en main vous devez simplement personnaliser les variables avec les de services que vous souhaitez selon votre besoin.
+Le script est pratiquement délivré clé en main, vous devez simplement personnaliser les variables avec les de services que vous souhaitez, selon votre besoin.
 
-Choissiez le service que vous voulez superviser prenons l'exemple du gestionnaire audio de windows. 
+Choissiez le service que vous voulez superviser prenons pour notre démonstration le gestionnaire audio de windows. 
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/JmwMVKT/Capture.png" alt="Capture" border="0"></a>
 
@@ -112,7 +112,7 @@ Pour l'ajouter il vous suffit de déterminer son nom de service, dans notre cas 
 
 <a href="https://ibb.co/Jr2HWKn"><img src="https://i.ibb.co/MPp7ysn/Services.png" alt="Services" border="0"></a>
 
-Vous devez reneigner le nom du service à la ligne 7 du script Script_vision.py <a href="https://imgbb.com/"><img src="https://i.ibb.co/m5bZY69/Ligne-7.png" alt="Ligne-7" border="0"></a>
+Vous devez reneigner ce nom à la ligne 7 du script Script_vision.py <a href="https://imgbb.com/"><img src="https://i.ibb.co/m5bZY69/Ligne-7.png" alt="Ligne-7" border="0"></a>
 
 
 
@@ -132,6 +132,18 @@ L'avantage, c'est qu'il n'est pas necessaire d'avoir python installer ainsi sa c
 
 <!-- USAGE EXAMPLES -->
 ## Utilisation
+
+Vous pouvez utiliser le script de plusieurs manieres, la premiere l'executer comme script simple depuis l'invite de commande quand vous le souhaitez.
+Pour ce faire tapez simple Py nomdevotrescript.py
+
+
+
+Deuxieme utilisation possible celle qui nous motive à réaliser ce projet : l'automatisation de la tache.
+
+Pour ce faire nous allons utiliser l'outil windows planificateur de taches.
+
+Néanmoins, nous ne pouvons pas ajouter le script tel quel il est préferable de compiler un exectuable.
+
 
 Pour utiliser le script vous devez passer par l'invite de commande windows que vous devez lancer en administrateur :
 
