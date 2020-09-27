@@ -206,7 +206,9 @@ Noor khan noorkhan.95150@gmail.com
 Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/azura1003/Nkhan_P6_Python)
 
 
-Texte normal suivi d’un <span class="bg-info text-success">texte coloré en vert sur fond bleu</span> dans un paragraphe.
+<div class="text-white bg-purple mb-2">
+  .text-white on .bg-purple
+</div>
 
 
 
