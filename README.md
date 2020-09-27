@@ -209,7 +209,7 @@ Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/
 
 
 
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `BLABLA`
+
 
 
 
