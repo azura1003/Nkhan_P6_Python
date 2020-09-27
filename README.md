@@ -30,7 +30,7 @@
 
 <!-- A propos du projet -->
 ## A propos du projet
-
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/fC8b5jw/Blue.png" alt="Blue" border="0"></a>
 
 Ce projet est né de ma volonté de faciliter mon quotidien. Dans le cadre de maintenance d'automates qui encodent des carte magnétique/RFID, il m'arrive d'effectuer quotidiennement des tâches redondantes. Le parc d'automates que je maintiens avec mon équipe s'élève à 3000 machines basées chez nos divers clients, 20% de ces machines dispose d'un logiciel d'encodage nommé vision. Celui-ci est installé par la société Assabloy, dont il est elle est conceptrice.
 
@@ -59,7 +59,6 @@ Apres une estimation, la moyenne de temps passé par un technicien sur ce proble
 
 <li>la communication avec le client et la cloture</li> 
 </ul>
-
 
 
 
@@ -122,6 +121,7 @@ Vous devez reneigner ce nom à la ligne 7 du script Script_vision.py <a href="ht
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
+
 Vous pouvez utiliser le script de plusieurs manieres, la premiere l'executer comme script simple depuis l'invite de commande quand vous le souhaitez.
  <a href="https://ibb.co/Dt1P55F"><img src="https://i.ibb.co/mGRr66K/Commande.png" alt="Commande" border="0"></a>
 
@@ -177,6 +177,7 @@ La tache est bien présente et elle s'excutera automatiquement toutes les 5 minu
 
 
 
+
 <!-- CONTRIBUTING -->
 ## Contribution
 
@@ -207,7 +208,7 @@ Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/
 
 
 
-
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/86NNgYD/Red.png" alt="Red" border="0"></a>
 
 
 
