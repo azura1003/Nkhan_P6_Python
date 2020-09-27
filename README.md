@@ -22,6 +22,7 @@
   * [Configuration](#Configuration)
 * [Utilisation](#Utilisation)
 * [Contribution](#contribution)
+* [Versioning](#Versioning)
 * [Licence](#Licence)
 * [Contact](#contact)
 
@@ -192,6 +193,10 @@ Possibilité d'exporter les logs automatiquement après un délai d'un mois sur 
 
 Automatisation avec CRON pour linux
 
+## Versioning
+Dans le repertoire projet vous allez trouver le fichier changelog.md, ce dernier à pour but de répertorier les versions et les ajouts.
+Version précédente Version 1.0
+
 
 <!-- LICENCE -->
 ## Licence
@@ -200,8 +205,7 @@ Le projet régit de la licence MIT.
 
 
 
-Version précédente Version 1.0
-Voir changelog.md
+
 
 
 <!-- CONTACT -->
