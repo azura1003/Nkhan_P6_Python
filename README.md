@@ -46,17 +46,20 @@ Ce script pourra à terme nous apporter un gain de temps statistiquement un agen
 
 Apres une estimation, la moyenne de temps passé par un technicien sur ce probleme est 15 minutes :
 
--la prise du ticket sur salesforce
+<ul>
+<li>la prise du ticket sur salesforce</li>
 
--la comprension de la demande
+<li>la comprension de la demande</li>
 
--la prise de main sur le system
+<li>la prise de main sur le system</li>
 
--l'exploitation des logs afin de dyagnostiquer le probleme
+<li>l'exploitation des logs afin de dyagnostiquer le probleme</li>
 
--la resolution
+<li>la resolution</li>
 
--la communication avec le client et la cloture 
+<li>la communication avec le client et la cloture</li> 
+</ul>
+
 
 
 
@@ -72,7 +75,6 @@ Le scrypt/programme a été concu dans le language Python avec l'aide de l'IDE P
 ## Pour commmencer 
 
 Voici des instructions simples pour que vous puissiez vous aussi utiliser ce script et l'adapter à votre infrastucture.
-
 
 
 ### Prérequis
@@ -204,7 +206,7 @@ Noor khan noorkhan.95150@gmail.com
 Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/azura1003/Nkhan_P6_Python)
 
 
-
+Texte normal suivi d’un <span class="bg-info text-success">texte coloré en vert sur fond bleu</span> dans un paragraphe.
 
 
 
