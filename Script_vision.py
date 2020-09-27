@@ -1,43 +1,27 @@
-import psutil
-import win32serviceutil
 import os
 import datetime
-
-
-def getService(Audiosrv):
-    service = None
-    try:
-        service = psutil.win_service_get(Audiosrv)
-        service = service.as_dict()
-    except Exception as ex:
-        print (str(ex))
-
-    return service
-
-service = getService('Audiosrv')
-
-#print(service)
-
-if service:
-        print ("service trouvé")
+import psutil
+import win32serviceutil
+   
+   
+LOOKUP_SERVICE = 'Audiosrv'
+ 
+try:
+    service = psutil.win_service_get(LOOKUP_SERVICE)
+except psutil.NoSuchProcess:
+    print("service not found")
 else:
-        print ("service not found")
-
-if service and service['status'] == 'running':
-
-        print ("service est en cours de fonctionnement")
-else:
-
-         print ("service est arreté")
-         service = "Audiosrv"
-         win32serviceutil.StartService(service)
-         print("le service a été demarré")
-         try:
-             os.mkdir('C:\Ariane\Logs_script_vision')
-         except:
-             print("Dossier logs déja existant")
-         finally:
-             fichier = open("C:\Ariane\Logs_script_vision\Visionlogs.txt","a")
-             fichier.write("\nLe fichier vision a été relancé par notre script le :")
-             fichier.write(datetime.datetime.now().ctime())
-             fichier.close()
+    print("service trouvé.")
+    if service.status() == 'runnig':
+        print("service est en cours de fonctionnement")
+    else:
+        print("service est arreté")
+        win32serviceutil.StartService(LOOKUP_SERVICE)
+        print("le service a été demarré")
+        try:
+            os.mkdir(r'C:\Ariane\Logs_script_vision') # on windows back-slash in path may create problems. use raw string or forward slash
+        except FileExistsError: # catch specifi error consistent with the msg you print
+            print("Dossier logs déja existant")
+        finally:
+            with open(r"C:\Ariane\Logs_script_vision\Visionlogs.txt", "a") as fichier:
+                fichier.write(f"Le fichier vision a été relancé par notre script le :{datetime.datetime.now().ctime()}\n")
