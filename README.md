@@ -116,42 +116,20 @@ Vous devez reneigner ce nom à la ligne 7 du script Script_vision.py <a href="ht
 
 
 
-<a href="https://ibb.co/yX5K4nm"><img src="https://i.ibb.co/JK283RW/Pip-pyinstaller.png" alt="Pip-pyinstaller" border="0"></a>
-
-Tapez la commande pip install pyinstaller --onefile 
-
-Le "one file" est utile quand vous voulez qu'un seul fichier à la sortie.
-
-Une fois terminé, vous vous retrouvez avec votre executable.
-
-<a href="https://ibb.co/PgXGYKS"><img src="https://i.ibb.co/zZ9V5pk/exe.png" alt="exe" border="0"></a>
-
-L'avantage, c'est qu'il n'est pas necessaire d'avoir python installer ainsi sa compatibilité aux divers environnements est améoliré. 
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
 Vous pouvez utiliser le script de plusieurs manieres, la premiere l'executer comme script simple depuis l'invite de commande quand vous le souhaitez.
-Pour ce faire tapez simple Py nomdevotrescript.py
+ <a href="https://ibb.co/Dt1P55F"><img src="https://i.ibb.co/mGRr66K/Commande.png" alt="Commande" border="0"></a>
 
 
 
 Deuxieme utilisation possible celle qui nous motive à réaliser ce projet : l'automatisation de la tache.
 
-Pour ce faire nous allons utiliser l'outil windows planificateur de taches.
+Pour ce faire nous allons utiliser l'outil windows planificateur de tache, afin de lancer le script à intervalles réguliers.
 
 Néanmoins, nous ne pouvons pas ajouter le script tel quel il est préferable de compiler un exectuable.
-
-
-Pour utiliser le script vous devez passer par l'invite de commande windows que vous devez lancer en administrateur :
-
-<a href="https://ibb.co/Dt1P55F"><img src="https://i.ibb.co/mGRr66K/Commande.png" alt="Commande" border="0"></a>
-
-Dans mon cas j'ai décidé d'utiliser le planificateur de taches Windows afin de lancer le script à intervalles réguliers.
-
-Pour ce faire, il faut transformer le script en exécutable.
 
 La première étape consiste à télécharger la dépendance python qui va convertir le script en exécutable :
 
@@ -169,7 +147,32 @@ Une fois terminé, vous vous retrouvez avec votre executable.
 L'avantage, c'est qu'il n'est pas necessaire d'avoir python installer ainsi sa compatibilité aux divers environnements est améoliré. 
 
 
-=> Finir le tuto vers Windows task completer
+Maintenant que nous avons un executable fraichement créer, nous pouvons créer une tache dans l'outil windows "planificateur de tache".
+Je vous ai facilité la "tache" :) . Plutot que de créer une tache de maniere longue et fastidieuse, je vous ai mis à disposition dans le répertoire projet le fichier services visions reboot.xml. Ce fichier est le template de la tache que j'ai créer pour mon projet, les commentaires dans le fichier xml vous indiquent les balises à modifier afin de personnaliser votre tache.
+
+Une fois que vous avez ajuster le XML selon votre besoin, nous pouvons le charger dans le planificateur.
+Il vous suffit d'ouvrir une invite de commande en administrateur et de taper la commande suivante et appuyez sur Entrer:
+
+
+schtasks /create /xml "%UserProfile%\CHEMIN-JUSQUAU-FICHIER\NOM-DE-VOTRE-FICHIER.xml" /tn "\NOM-DOSSIER-PLANIFICATEUR\NOM-TACHE-SUR-PLANIFICATEUR" /ru "NOM-PC\NOM-UTILISATEUR"
+
+
+Dans la commande, n'oubliez pas de modifier ("%UserProfile%\CHEMIN-JUSQUAU-FICHIER\NOM-DE-VOTRE-FICHIER.xml"," "\NOM-DOSSIER-PLANIFICATEUR\NOM-TACHE-SUR-PLANIFICATEUR" "NOM-PC\NOM-UTILISATEUR") avec vos informations locales.
+
+Petite astuce: Si la commande echoue ou vous ne voulez pas tapez le mot de passe manuellement (script auto), modifiez /rp COMPTE-MDP (remplacant "COMPTE-MDP" par votre mot de passe actuel).
+
+Resultat
+
+<a href="https://ibb.co/74k57Tx"><img src="https://i.ibb.co/rsdSnLK/Capture.png" alt="Capture" border="0"></a>
+
+Allons voir dans le planificateur de tache  : 
+
+<a href="https://ibb.co/1vJ07gs"><img src="https://i.ibb.co/4mgFKqs/Capture-2.png" alt="Capture-2" border="0"></a>
+
+
+La tache est bien présente et elle s'excutera automatiquement toutes les 5 minutes et va démarrer à 20h.
+
+
 
 
 <!-- CONTRIBUTING -->
@@ -196,7 +199,7 @@ Voir changelog.md
 <!-- CONTACT -->
 ## Contact
 
-Noor khan nk@emailfactice.fr
+Noor khan noorkhan.95150@gmail.com
 
 Project Link: [https://github.com/azura1003/Nkhan_P6_Python](https://github.com/azura1003/Nkhan_P6_Python)
 
