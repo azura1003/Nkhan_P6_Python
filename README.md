@@ -157,11 +157,11 @@ Il vous suffit d'ouvrir une invite de commande en administrateur et de taper la 
 
 
 ```
-{
+
   
 schtasks /create /xml "%UserProfile%\CHEMIN-JUSQUAU-FICHIER\NOM-DE-VOTRE-FICHIER.xml" /tn "\NOM-DOSSIER-PLANIFICATEUR\NOM-TACHE-SUR-PLANIFICATEUR" /ru "NOM-PC\NOM-UTILISATEUR"
 
-}
+
 ```
 
 Dans la commande, n'oubliez pas de modifier ("%UserProfile%\CHEMIN-JUSQUAU-FICHIER\NOM-DE-VOTRE-FICHIER.xml"," "\NOM-DOSSIER-PLANIFICATEUR\NOM-TACHE-SUR-PLANIFICATEUR" "NOM-PC\NOM-UTILISATEUR") avec vos informations locales.
